@@ -104,7 +104,7 @@
 
 // src/services/api.ts
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://krishimitra-backend-production.up.railway.app";
 
 function getAuthHeader(): Record<string, string> {
   const token = localStorage.getItem("krishimitra_token");
