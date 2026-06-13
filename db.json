@@ -1,0 +1,299 @@
+{
+  "farmers": [
+    {
+      "id": "F001",
+      "name": "Rajesh Patil",
+      "mobile": "9876543210",
+      "password": "password123",
+      "village": "Shirasgaon",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "soilType": "Black Soil",
+      "crop": "Soybean",
+      "status": "Active"
+    },
+    {
+      "id": "F002",
+      "name": "Sanjay Deshmukh",
+      "mobile": "9822334455",
+      "password": "password123",
+      "village": "Kalmeshwar",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "soilType": "Black Soil",
+      "crop": "Cotton",
+      "status": "Active"
+    },
+    {
+      "id": "F003",
+      "name": "Anil Kadam",
+      "mobile": "9145672312",
+      "password": "password123",
+      "village": "Hadapsar",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "soilType": "Loamy Soil",
+      "crop": "Wheat",
+      "status": "Active"
+    },
+    {
+      "id": "F004",
+      "name": "Ramesh Gowda",
+      "mobile": "9845012398",
+      "password": "password123",
+      "village": "Malur",
+      "district": "Kolar",
+      "state": "Karnataka",
+      "soilType": "Red Soil",
+      "crop": "Ragi",
+      "status": "Pending"
+    },
+    {
+      "id": "F005",
+      "name": "Gurbachan Singh",
+      "mobile": "9417065432",
+      "password": "password123",
+      "village": "Kharar",
+      "district": "Mohali",
+      "state": "Punjab",
+      "soilType": "Loamy Soil",
+      "crop": "Rice",
+      "status": "Active"
+    },
+    {
+      "id": "F006",
+      "name": "Ram Charan Yadav",
+      "mobile": "9555123456",
+      "password": "password123",
+      "village": "Amethi",
+      "district": "Amethi",
+      "state": "Uttar Pradesh",
+      "soilType": "Sandy Soil",
+      "crop": "Mustard",
+      "status": "Suspended"
+    }
+  ],
+  "crops": [
+    {
+      "id": "C001",
+      "name": "Soybean",
+      "season": "Kharif",
+      "soilType": "Black Soil",
+      "baseYield": "8-10 q/acre",
+      "waterReq": "Medium",
+      "priceIndex": "₹5,600/q"
+    },
+    {
+      "id": "C002",
+      "name": "Cotton (Long Staple)",
+      "season": "Kharif",
+      "soilType": "Black Soil",
+      "baseYield": "12-15 q/acre",
+      "waterReq": "High",
+      "priceIndex": "₹7,200/q",
+      "description": "Performs highly in deep black and clay-like rich soils."
+    },
+    {
+      "id": "C003",
+      "name": "Wheat (LOK-1)",
+      "season": "Rabi",
+      "soilType": "Loamy Soil",
+      "baseYield": "18-22 q/acre",
+      "waterReq": "Medium",
+      "priceIndex": "₹2,600/q"
+    },
+    {
+      "id": "C004",
+      "name": "Gram / Chana",
+      "season": "Rabi",
+      "soilType": "Sandy Soil",
+      "baseYield": "6-8 q/acre",
+      "waterReq": "Low",
+      "priceIndex": "₹5,400/q"
+    },
+    {
+      "id": "C005",
+      "name": "Sugarcane",
+      "season": "Annual",
+      "soilType": "Clayey Soil",
+      "baseYield": "40-50 tons/acre",
+      "waterReq": "Very High",
+      "priceIndex": "₹3,150/ton"
+    },
+    {
+      "id": "C006",
+      "name": "Groundnut",
+      "season": "Kharif",
+      "soilType": "Sandy Soil",
+      "baseYield": "10-12 q/acre",
+      "waterReq": "Low",
+      "priceIndex": "₹6,300/q"
+    }
+  ],
+  "marketPrices": [
+    {
+      "id": "M001",
+      "crop": "Soybean",
+      "market": "Nagpur APMC",
+      "currentPrice": 5650,
+      "minPrice": 5400,
+      "maxPrice": 5800,
+      "trend": "up"
+    },
+    {
+      "id": "M002",
+      "crop": "Cotton (L-Staple)",
+      "market": "Yavatmal APMC",
+      "currentPrice": 7250,
+      "minPrice": 6900,
+      "maxPrice": 7500,
+      "trend": "up"
+    },
+    {
+      "id": "M003",
+      "crop": "Wheat (Sarbati)",
+      "market": "Nashik APMC",
+      "currentPrice": 2650,
+      "minPrice": 2500,
+      "maxPrice": 2750,
+      "trend": "down"
+    },
+    {
+      "id": "M004",
+      "crop": "Pigeon Pea (Tur)",
+      "market": "Latur APMC",
+      "currentPrice": 10200,
+      "minPrice": 9800,
+      "maxPrice": 10500,
+      "trend": "up"
+    },
+    {
+      "id": "M005",
+      "crop": "Onion (Red)",
+      "market": "Lasalgaon APMC",
+      "currentPrice": 1950,
+      "minPrice": 1600,
+      "maxPrice": 2300,
+      "trend": "down"
+    },
+    {
+      "id": "M006",
+      "crop": "Mustard Seeds",
+      "market": "Jaipur APMC",
+      "currentPrice": 5850,
+      "minPrice": 5600,
+      "maxPrice": 6100,
+      "trend": "stable"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "S001",
+      "title": "PM Kisan Samman Nidhi",
+      "benefit": "₹6,000 / Year",
+      "eligibility": "Marginal Landholders",
+      "category": "Finance Credit",
+      "status": "Active"
+    },
+    {
+      "id": "S002",
+      "title": "PM Fasal Bima Yojana",
+      "benefit": "Low Premium Crop Insurance",
+      "eligibility": "All Sowing Farmers",
+      "category": "Insurance",
+      "status": "Active"
+    },
+    {
+      "id": "S003",
+      "title": "Soil Health Card Scheme",
+      "benefit": "Free Soil Testing & Advisory",
+      "eligibility": "All Landholders",
+      "category": "Testing",
+      "status": "Active"
+    },
+    {
+      "id": "S004",
+      "title": "Subsidized Solar Pump Subsidies",
+      "benefit": "60% cost off solar irrigation pumps",
+      "eligibility": "Tubewell Farmers",
+      "category": "Infrastructure",
+      "status": "Active"
+    },
+    {
+      "id": "S005",
+      "title": "Rashtriya Krishi Vikas Yojana",
+      "benefit": "Total agribusiness grants",
+      "eligibility": "FPO Groups",
+      "category": "Development",
+      "status": "Inactive"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "A001",
+      "type": "Weather Alert",
+      "severity": "High",
+      "message": "Heavy pre-monsoon storm with wind velocities up to 45km/h in Eastern Vidarbha. Cover open grains.",
+      "date": "2026-06-11 14:30",
+      "status": "Sent"
+    },
+    {
+      "id": "A002",
+      "type": "Market Trend Alert",
+      "severity": "Medium",
+      "message": "Soybean mandi crop prices in Akola surge beyond ₹5,700/q. Good selling window.",
+      "date": "2026-06-11 11:15",
+      "status": "Sent"
+    },
+    {
+      "id": "A003",
+      "type": "Pest Advisory",
+      "severity": "High",
+      "message": "Spotted bollworm risks detected in central cotton belts. Inspect calyx leaves immediately.",
+      "date": "2026-06-10 16:45",
+      "status": "Sent"
+    },
+    {
+      "id": "A004",
+      "type": "System Notification",
+      "severity": "Low",
+      "message": "Weekly database synchronization of APMC market feeds completed successfully.",
+      "date": "2026-06-09 04:00",
+      "status": "System"
+    }
+  ],
+  "auditLogs": [
+    {
+      "timestamp": "10:14:48",
+      "author": "Admin (Pranati)",
+      "event": "Updated Cotton price in Yavatmal APMC to ₹7,250/q",
+      "severity": "info"
+    },
+    {
+      "timestamp": "09:21:05",
+      "author": "System Broker",
+      "event": "Meteo satellite feed parsed. Rain forecast score updated to 85%",
+      "severity": "success"
+    },
+    {
+      "timestamp": "08:44:12",
+      "author": "Admin (Pranati)",
+      "event": "Approved pending farmer license verification for Ramesh Gowda",
+      "severity": "warning"
+    },
+    {
+      "timestamp": "07:30:00",
+      "author": "Framer API Gateway",
+      "event": "Dispatched automated text notification: Heavy rainfall alert to 4,200 farmers",
+      "severity": "success"
+    },
+    {
+      "timestamp": "06:12:30",
+      "author": "System Broker",
+      "event": "Backup routine successfully executed on local disk",
+      "severity": "info"
+    }
+  ],
+  "recommendationHistory": [],
+  "diseaseHistory": []
+}

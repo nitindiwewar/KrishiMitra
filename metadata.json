@@ -1,0 +1,6 @@
+{
+  "name": "KrishiMitra",
+  "description": "Smart Farming platform with Crop Recommendation, Disease Detection, Weather Forescasts and Market Prices",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
